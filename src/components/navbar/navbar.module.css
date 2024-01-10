@@ -1,0 +1,107 @@
+.navbarContainer {
+  display: flex;
+}
+.navbarContainer .logo {
+  margin-right: 1rem;
+}
+
+.navbarDesktop {
+  flex: 1;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--grayishViolet);
+  font-weight: 700;
+}
+
+.navLink:hover {
+  color: black;
+}
+
+.loginBtn {
+  margin-left: auto;
+}
+
+.hamburgerMenu {
+  display: none;
+  width: 25px;
+  height: 3px;
+  background-color: var(--gray); /* You can use your preferred color */
+  margin: 6px 0;
+  transition: 0.4s;
+  margin-left: auto;
+}
+
+.hamburgerMenu:before,
+.hamburgerMenu:after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--gray); /* You can use your preferred color */
+  position: absolute;
+  transition: 0.4s;
+}
+
+.hamburgerMenu:before {
+  transform: translateY(-8px);
+}
+
+.hamburgerMenu:after {
+  transform: translateY(8px);
+}
+
+.mobileNav {
+  background-color: var(--darkViolet);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 15px;
+  margin-top: 1rem;
+}
+.mobileLink {
+  text-decoration: none;
+  color: var(--gray);
+  font-weight: 700;
+}
+.mobileDivider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--grayishViolet);
+  opacity: 25%;
+}
+
+.signUpBtn {
+  background-color: var(--cyan);
+  color: white;
+  padding: 0.5rem 1.3rem;
+  border-radius: 20px;
+  text-align: center;
+}
+.signUpBtn:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .navbarDesktop {
+    display: none;
+  }
+  .hamburgerMenu {
+    display: block;
+  }
+  .signUpBtn {
+    width: 95%;
+  }
+}
