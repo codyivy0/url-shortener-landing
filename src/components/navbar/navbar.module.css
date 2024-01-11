@@ -58,13 +58,14 @@
 
 .mobileNav {
   background-color: var(--darkViolet);
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
   padding: 2rem;
   border-radius: 15px;
   margin-top: 1rem;
+  
 }
 .mobileLink {
   text-decoration: none;
@@ -103,5 +104,8 @@
   }
   .signUpBtn {
     width: 95%;
+  }
+  .mobileNav {
+    display: flex;
   }
 }
