@@ -53,7 +53,7 @@ const Shortener = () => {
         setShortenedUrl(result.data.tiny_url);
         setInputValue("");
       } else {
-        setErrorMessage("Please add a link");
+        setErrorMessage("Please add a valid link");
       }
     } catch (error) {
       setErrorMessage("Error:", error.message);
