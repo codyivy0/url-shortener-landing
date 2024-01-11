@@ -21,11 +21,12 @@
 }
 body {
   margin: 0;
+  background-color: hsl(0,0%,95%);
 }
 
 .contentContainer {
   padding: 2rem 10rem;
-background-color: hsl(0,0%,95%);
+
 }
 
 @media (max-width: 930px) {
