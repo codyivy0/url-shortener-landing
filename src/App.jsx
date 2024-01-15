@@ -1,4 +1,7 @@
 import "./App.css";
+import Boost from "./components/boost/boost";
+import Contact from "./components/contact/contact";
+import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/navbar";
 import Shortener from "./components/shortener/Shortener";
 
@@ -7,8 +10,11 @@ function App() {
     <>
       <div className="contentContainer">
         <Navbar />
+        
         <Shortener />
       </div>
+      <Boost />
+      <Contact />
     </>
   );
 }

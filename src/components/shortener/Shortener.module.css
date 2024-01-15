@@ -49,7 +49,7 @@
   font-size: 1.1rem;
 }
 .shortenerBtn:hover {
-  opacity: 0.5;
+  filter: brightness(110%);
 }
 
 .previousLinkContainer {
@@ -87,7 +87,7 @@
   font-weight: 700;
 }
 .copyBtn:hover {
-  opacity: 0.5;
+  filter: brightness(110%);
   cursor: pointer;
 }
 .copyBtn:active {
