@@ -1,5 +1,6 @@
 .navbarContainer {
   display: flex;
+  margin-bottom: 4rem;
 }
 .navbarContainer .logo {
   margin-right: 1rem;
