@@ -75,6 +75,9 @@
 }
 .tinyUrl {
   color: var(--cyan);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .copyBtn {
