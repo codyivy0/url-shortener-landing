@@ -3,7 +3,6 @@ import Boost from "./components/boost/boost";
 import Cards from "./components/cards/cards";
 import Contact from "./components/contact/contact";
 import Hero from "./components/hero/Hero";
-
 import Navbar from "./components/navbar/navbar";
 import Shortener from "./components/shortener/Shortener";
 
